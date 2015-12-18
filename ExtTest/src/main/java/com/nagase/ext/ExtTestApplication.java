@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @EnableAutoConfiguration
 public class ExtTestApplication {
 
+	
     public static void main(String[] args) {
         SpringApplication.run(ExtTestApplication.class, args);
     }
