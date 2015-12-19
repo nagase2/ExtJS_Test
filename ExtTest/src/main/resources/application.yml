@@ -32,6 +32,8 @@ spring:
 
 ---
 
+spring.application.index= index.html # Application index.
+spring.application.name= # Application name.
 
 spring.thymeleaf.cache: false
 spring.view.prefix: /WEB-INF/jsp/
