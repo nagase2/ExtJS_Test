@@ -76,11 +76,11 @@ Ext.define('Myapp.view.main.Main', {
     },
 
     items: [{
-        title: 'Home',
+        title: 'Home desu',
         iconCls: 'fa-home',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
-            xtype: 'mainlist'
+            xtype: 'mainlistxxx'
         }]
     }, {
         title: 'Users',
@@ -98,7 +98,7 @@ Ext.define('Myapp.view.main.Main', {
         title: 'Settings',
         iconCls: 'fa-cog',
         bind: {
-            html: '<b>great!</b>'
+            html: '<b>great!</b> this is html'
         }
     }]
 });

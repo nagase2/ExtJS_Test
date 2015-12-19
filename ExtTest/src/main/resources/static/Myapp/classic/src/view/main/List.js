@@ -3,13 +3,14 @@
  */
 Ext.define('Myapp.view.main.List', {
     extend: 'Ext.grid.Panel',
-    xtype: 'mainlist',
+    //renderTo: 'nagase-div'
+    xtype: 'mainlistxxx',
 
     requires: [
         'Myapp.store.Personnel'
     ],
 
-    title: 'Personnel',
+    title: 'Personnel n',
 
     store: {
         type: 'personnel'
